@@ -4,7 +4,7 @@ import Link from 'next/link';
 interface CardProps {
   href: string;
   imgSrc: string;
-  layoutId: string;
+  layoutId?: string;
 }
 
 const CardImage: React.FC<CardProps> = ({ href, imgSrc, layoutId }) => {

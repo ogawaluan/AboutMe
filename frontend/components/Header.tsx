@@ -10,6 +10,14 @@ const Header: React.FC = () => {
         <Link href="/aboutme">
           <a className="tracking-wide hover:text-gray-300">About me</a>
         </Link>
+
+        <Link href="/contact">
+          <a className="tracking-wide hover:text-gray-300">Contact</a>
+        </Link>
+
+        <Link href="/tecnologies">
+          <a className="tracking-wide hover:text-gray-300">Tecnologies</a>
+        </Link>
       </nav>
     </header>
   );
